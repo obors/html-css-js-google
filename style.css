@@ -85,11 +85,15 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 flex-wrap: wrap;
+
 }
 .hiddeApp li a img{
 width: 90px;
 height: 90px;
 border-radius: 24px;
+}
+.submenuApp li{
+  list-style-type: none;
 }
 .active{
   display: block;
